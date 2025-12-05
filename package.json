@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
   }
 }
