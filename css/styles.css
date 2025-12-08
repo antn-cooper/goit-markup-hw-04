@@ -40,12 +40,15 @@ ul {
 
 /* Navigation link styles */
 .header-nav-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
   color: #2e2f42;
 }
+
 .header-nav-link:hover {
   color: #404bbf;
 }
@@ -66,6 +69,8 @@ ul {
 
 /* Address info styles */
 .address-info a {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   display: inline;
   font-style: normal;
   text-decoration: none;
@@ -84,8 +89,9 @@ ul {
 
 /* Hero section styles */
 .hero {
-  width: 100%;
-  gap: 48px;
+  /* Will need these rules in the future. */
+  /* width: 100%;
+  gap: 48px; */
   background-color: #2e2f42;
   color: #fff;
 }
@@ -214,6 +220,12 @@ ul {
 }
 .footer a {
   text-decoration: none;
+}
+.footer-business-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 .web-logo-footer {
   font-family: 'Raleway', sans-serif;
